@@ -25,19 +25,21 @@
     
     return @"列表";
 }
+- (NSArray *)navigationRightItems{
+    
+    UIButton *button = [[button_add alloc]init];
+    [button addTarget:self action:@selector(addItem) forControlEvents:UIControlEventTouchUpInside];
+    return @[button];
+}
 - (void)addItem{
    
     goods_add *server = [[goods_add alloc]init];
-    [goods_add_controller push:server];
+    [controller_bottom push:server];
     [server popBack:^(id  _Nonnull obj) {
        
         [self networkRequest];
     }];
    
-}
-- (BOOL)addItemHidden{
-   
-    return NO;
 }
 - (void)loadTableData:(NSDictionary *)reponse{
            
@@ -59,12 +61,12 @@
    if ([obj isKindOfClass:[goods_state class]]) {
         
         goods_detail *server = [[goods_detail alloc]init];
-        [goods_detail_controller push:server];
+        [controller_normal push:server];
         
     }else if ([obj isKindOfClass:[goods_button class]]){
         
         goods_add *server = [[goods_add alloc]init];
-        [goods_add_controller push:server];
+        [controller_bottom push:server];
         [server popBack:^(id  _Nonnull obj) {
            
             [self networkRequest];

@@ -82,6 +82,7 @@ typedef enum : NSUInteger {
 #import "view_h.h"
 #import "WTime.h"
 
+
 #import "AlertDate.h"
 #import "AlertList.h"
 #import "AlertTime.h"
@@ -220,24 +221,12 @@ typedef enum : NSUInteger {
 
 #import "forget_confi.h"
 #import "user_mine.h"
-#import "change_password.h"
-#import "change_password_todo.h"
 #import "change_mine.h"
 #import "change_mine_todo.h"
-#import "change_card.h"
 
 
 #import "HomeController.h"
-#import "goods_project_controller.h"
 #import "forget_controller.h"
-#import "change_card_controller.h"
-#import "change_mine_controller.h"
-#import "change_password_controller.h"
-#import "goods_record_controller.h"
-#import "goods_add_controller.h"
-#import "goods_brand_controller.h"
-#import "goods_detail_controller.h"
-#import "goods_project_search_controller.h"
 #import "photo_viewer_controller.h"
 
 
@@ -255,5 +244,7 @@ typedef enum : NSUInteger {
 
 
 #import "LoginConroller.h"
-
+#import "controller_normal.h"
+#import "controller_bottom.h"
+#import "controller_search.h"
 #endif /* Header_h */

@@ -45,12 +45,12 @@ typedef void(^BackBlock)(id obj);
 
 - (void)networkRequest;
 
-- (void)searchItem;
-- (void)addItem;
-- (void)commit;
-- (BOOL)addItemHidden;
-
 - (NSString *)navigationTitle;
+- (NSArray *)navigationRightItems;
+- (UIView *)bottomItems;
+
+
+
 - (void)searchContent:(NSString *)string;
 - (NSString *)searchPlaceholder;
 

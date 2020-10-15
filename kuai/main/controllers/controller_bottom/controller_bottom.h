@@ -1,19 +1,21 @@
 //
-//  goods_project_search_controller.h
+//  controller_bottom.h
 //  kuai
 //
-//  Created by apple on 2020/8/31.
+//  Created by apple on 2020/10/15.
 //  Copyright © 2020 sui. All rights reserved.
 //
 
-#import "controller_search.h"
+
+#import "controller_bottom.h"
 #import "Header.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface goods_project_search_controller : controller_search
+@interface controller_bottom : controller_back
 @property(nonatomic,strong)Server *server;
 + (void)push:(Server *)server;
+
 @end
 
 NS_ASSUME_NONNULL_END

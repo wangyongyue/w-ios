@@ -53,15 +53,23 @@
 - (void)tableIndex:(NSInteger)index{
     goods_project_item *item = self.array[index];
     goods_record *server = [[goods_record alloc]init];
-    [goods_record_controller push:server];
+    [controller_normal push:server];
 }
 
 
 - (void)searchItem{
     
     goods_project *server = [[goods_project alloc]init];
-    [goods_project_search_controller push:server];
+    [controller_search push:server];
 }
+- (NSArray *)navigationRightItems{
+    
+    UIButton *button = [[button_search alloc]init];
+    [button addTarget:self action:@selector(searchItem) forControlEvents:UIControlEventTouchUpInside];
+    return @[button];
+}
+
+
 - (NSString *)navigationTitle{
     return @"列表";
 }

@@ -26,7 +26,7 @@
 - (void)tapClick{
     
     user_details *server = [[user_details alloc]init];
-    [goods_detail_controller push:server];
+    [controller_normal push:server];
 }
 - (void)viewDidLoad{
     [super viewDidLoad];
@@ -174,8 +174,8 @@
 }
 - (void)editorClick{
     
-    change_mine_controller *vc = [[change_mine_controller alloc]init];
-    [self.navigationController pushViewController:vc animated:YES];
-    
+  
+    change_mine *server = [[change_mine alloc]init];
+    [controller_normal push:server];
 }
 @end

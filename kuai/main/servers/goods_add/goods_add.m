@@ -12,8 +12,6 @@
 @implementation goods_add
 
 - (NSString *)url{
-    
-    
     return @"";
 }
 - (NSMutableDictionary *)body{
@@ -74,7 +72,7 @@
     NSObject *obj = self.array[index];
     if ([obj isKindOfClass:[goods_add_input_tap class]]) {
         Server *server = [[goods_brand alloc]init];
-        [goods_brand_controller push:server];
+        [controller_search push:server];
         [server popBack:^(id  _Nonnull obj) {
 
             goods_brand_item *item = obj;
@@ -135,6 +133,14 @@
     
     
     
+}
+
+- (UIView *)bottomItems{
+    
+    UIButton *button = [[button_blue_white alloc]init];
+    [button setTitle:@"提交" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(commit) forControlEvents:UIControlEventTouchUpInside];
+    return button;
 }
 
 - (void)commit{

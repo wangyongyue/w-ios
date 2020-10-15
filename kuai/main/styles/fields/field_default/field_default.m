@@ -70,6 +70,7 @@
     NSLog(@"%@",textField.text);
     NSString *toBeString = textField.text;
     NSString *lang = [[UITextInputMode currentInputMode] primaryLanguage]; // 键盘输入模式
+    BOOL isGao = NO;
     if ([lang isEqualToString:@"zh-Hans"]) { // 简体中文输入，包括简体拼音，健体五笔，简体手写
         UITextRange *selectedRange = [textField markedTextRange];
         //获取高亮部分
@@ -78,7 +79,7 @@
         if (!position) {
                         
         }else{
-            
+            isGao = YES;
         }
         if (self.re) {
             self.re.isZH = YES;
@@ -90,7 +91,7 @@
             self.re.isZH = NO;
         }
     }
-    if (self.re) {
+    if (self.re && isGao == NO) {
         textField.text = [self.re run:textField.text];
     }
     

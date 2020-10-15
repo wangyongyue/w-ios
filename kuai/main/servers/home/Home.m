@@ -26,7 +26,7 @@
 - (void)tableIndex:(NSInteger)index{
     home_content *m = self.array[index];
     goods_project *server = [[goods_project alloc]init];
-    [goods_project_controller push:server];
+    [controller_normal push:server];
     
 }
 

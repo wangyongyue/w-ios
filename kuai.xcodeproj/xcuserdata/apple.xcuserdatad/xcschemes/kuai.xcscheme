@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "188CB170248F647300B8A194"
-               BuildableName = "&#x7269;&#x6599;&#x9a8c;&#x6536;.app"
+               BuildableName = "w.app"
                BlueprintName = "kuai"
                ReferencedContainer = "container:kuai.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "188CB170248F647300B8A194"
-            BuildableName = "&#x7269;&#x6599;&#x9a8c;&#x6536;.app"
+            BuildableName = "w.app"
             BlueprintName = "kuai"
             ReferencedContainer = "container:kuai.xcodeproj">
          </BuildableReference>

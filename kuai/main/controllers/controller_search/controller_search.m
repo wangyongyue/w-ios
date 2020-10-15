@@ -14,15 +14,14 @@
 @end
 
 @implementation controller_search
-
++ (void)push:(Server *)server{
+    
+    controller_search *vc = [[controller_search alloc]init];
+    vc.server = server;
+    [Router push:vc];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    UIButton *button = [[button_back alloc]init];
-    [button addTarget:self action:@selector(backClick) forControlEvents: UIControlEventTouchUpInside];
-    
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:button];
-    
     
     
     UIButton *search = [[UIButton alloc]init];
@@ -37,15 +36,13 @@
  
     
 }
-- (void)backClick{
-    
-    [self.navigationController popViewControllerAnimated:YES];
-}
+
 - (void)searchClick{
     
     if (self.field.text.length == 0) {
         return [Alert showMessage:@"请输入搜索内容"];
     }
+    [self.server searchContent:self.field.text];
     
 }
 @end

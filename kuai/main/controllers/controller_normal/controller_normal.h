@@ -1,19 +1,24 @@
 //
-//  goods_detail_controller.h
+//  controller_normal.h
 //  kuai
 //
-//  Created by apple on 2020/8/27.
+//  Created by apple on 2020/10/15.
 //  Copyright © 2020 sui. All rights reserved.
 //
 
+
 #import "controller_back.h"
-#import "Header.h"
+#import "Server.h"
+#import "list_pull_down_up_view.h"
+#import "Router.h"
+#import <Masonry.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface goods_detail_controller : controller_back
+@interface controller_normal : controller_back
 @property(nonatomic,strong)Server *server;
 + (void)push:(Server *)server;
+
 
 @end
 

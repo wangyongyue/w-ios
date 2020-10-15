@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1819558524E1176C006C034E /* LoginConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819558424E1176C006C034E /* LoginConroller.m */; };
 		1819558E24E133A8006C034E /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819558D24E133A8006C034E /* UIImage+Extend.m */; };
+		182E086A2538368000482B1C /* controller_bottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E08692538368000482B1C /* controller_bottom.m */; };
+		182E086D2538368B00482B1C /* controller_normal.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E086C2538368B00482B1C /* controller_normal.m */; };
 		183D225E24F64ED7004256D7 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D225D24F64ED7004256D7 /* Color.m */; };
 		183D226124F64FEB004256D7 /* label_default.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D226024F64FEB004256D7 /* label_default.m */; };
 		183D226924F74A19004256D7 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D226824F74A19004256D7 /* Font.m */; };
@@ -32,19 +34,10 @@
 		183D22A424F76243004256D7 /* Single.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D22A324F76243004256D7 /* Single.m */; };
 		183D22AA24F76476004256D7 /* view_default.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D22A924F76476004256D7 /* view_default.m */; };
 		183D22AD24F76485004256D7 /* view_blue.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D22AC24F76485004256D7 /* view_blue.m */; };
-		183D22DB24F776F1004256D7 /* change_card_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D22DA24F776F1004256D7 /* change_card_controller.m */; };
-		183D22E124F7770B004256D7 /* change_mine_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D22E024F7770B004256D7 /* change_mine_controller.m */; };
-		183D22E424F77718004256D7 /* change_password_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D22E324F77718004256D7 /* change_password_controller.m */; };
 		183D22EE24F7775B004256D7 /* controller_search.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D22ED24F7775B004256D7 /* controller_search.m */; };
-		183D22FA24F7778F004256D7 /* goods_brand_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D22F924F7778F004256D7 /* goods_brand_controller.m */; };
-		183D22FD24F777AA004256D7 /* goods_add_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D22FC24F777AA004256D7 /* goods_add_controller.m */; };
-		183D230024F777BE004256D7 /* goods_record_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D22FF24F777BE004256D7 /* goods_record_controller.m */; };
 		183D230324F777EB004256D7 /* forget_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D230224F777EB004256D7 /* forget_controller.m */; };
-		183D230E24F77C34004256D7 /* change_card.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D230D24F77C34004256D7 /* change_card.m */; };
 		183D231124F77C3B004256D7 /* change_mine_todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D231024F77C3B004256D7 /* change_mine_todo.m */; };
 		183D231424F77C42004256D7 /* change_mine.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D231324F77C42004256D7 /* change_mine.m */; };
-		183D231724F77C49004256D7 /* change_password_todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D231624F77C49004256D7 /* change_password_todo.m */; };
-		183D231A24F77C4F004256D7 /* change_password.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D231924F77C4F004256D7 /* change_password.m */; };
 		183D231D24F77C56004256D7 /* user_mine.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D231C24F77C56004256D7 /* user_mine.m */; };
 		183D232024F77C5E004256D7 /* goods_project.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D231F24F77C5E004256D7 /* goods_project.m */; };
 		183D232324F77C67004256D7 /* goods_record.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D232224F77C67004256D7 /* goods_record.m */; };
@@ -55,7 +48,6 @@
 		183D233E24F77CAD004256D7 /* login_todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D233D24F77CAD004256D7 /* login_todo.m */; };
 		183D234124F77CB5004256D7 /* forget_confi.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D234024F77CB5004256D7 /* forget_confi.m */; };
 		183D234424F77CBE004256D7 /* login_confi.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D234324F77CBE004256D7 /* login_confi.m */; };
-		183D234724F78558004256D7 /* goods_project_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D234624F78558004256D7 /* goods_project_controller.m */; };
 		183D236624F7B221004256D7 /* home_header_cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D236524F7B221004256D7 /* home_header_cell.m */; };
 		183D236924F7B2EE004256D7 /* home_content_cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D236824F7B2EE004256D7 /* home_content_cell.m */; };
 		183D236C24F7B2F8004256D7 /* mine_two_cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D236B24F7B2F8004256D7 /* mine_two_cell.m */; };
@@ -168,7 +160,6 @@
 		18C8CE6824FF46A800FA88B4 /* goods_add_input_time_cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8CE6724FF46A800FA88B4 /* goods_add_input_time_cell.m */; };
 		18C8CE6B24FF46B300FA88B4 /* goods_add_input_date_cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8CE6A24FF46B300FA88B4 /* goods_add_input_date_cell.m */; };
 		18C8CE7224FF824000FA88B4 /* goods_add_check.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8CE7124FF824000FA88B4 /* goods_add_check.m */; };
-		18C8CE7925008AF200FA88B4 /* goods_detail_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8CE7625008AF100FA88B4 /* goods_detail_controller.m */; };
 		18C8CE7D2500906100FA88B4 /* login_code_todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8CE7C2500906100FA88B4 /* login_code_todo.m */; };
 		18C8CE852500C75900FA88B4 /* loginOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8CE842500C75900FA88B4 /* loginOut.m */; };
 		18C8CE892500CB7100FA88B4 /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8CE882500CB7100FA88B4 /* user.m */; };
@@ -178,7 +169,6 @@
 		18D7948024FCA6FA0002DB79 /* button_back.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7947F24FCA6FA0002DB79 /* button_back.m */; };
 		18D7948424FCA90B0002DB79 /* button_editor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7948324FCA90B0002DB79 /* button_editor.m */; };
 		18D7948824FCBE540002DB79 /* button_search.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7948724FCBE540002DB79 /* button_search.m */; };
-		18D7948B24FCBF990002DB79 /* goods_project_search_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7948A24FCBF990002DB79 /* goods_project_search_controller.m */; };
 		18D7949024FCC0940002DB79 /* button_add.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7948F24FCC0940002DB79 /* button_add.m */; };
 		18D7949424FCD4A60002DB79 /* button_code.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7949324FCD4A60002DB79 /* button_code.m */; };
 		18D7949824FCDF550002DB79 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7949724FCDF550002DB79 /* Alert.m */; };
@@ -220,6 +210,10 @@
 		1819558424E1176C006C034E /* LoginConroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginConroller.m; sourceTree = "<group>"; };
 		1819558C24E133A8006C034E /* UIImage+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
 		1819558D24E133A8006C034E /* UIImage+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		182E08682538368000482B1C /* controller_bottom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = controller_bottom.h; sourceTree = "<group>"; };
+		182E08692538368000482B1C /* controller_bottom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = controller_bottom.m; sourceTree = "<group>"; };
+		182E086B2538368B00482B1C /* controller_normal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = controller_normal.h; sourceTree = "<group>"; };
+		182E086C2538368B00482B1C /* controller_normal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = controller_normal.m; sourceTree = "<group>"; };
 		183D225C24F64ED7004256D7 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		183D225D24F64ED7004256D7 /* Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
 		183D225F24F64FEB004256D7 /* label_default.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = label_default.h; sourceTree = "<group>"; };
@@ -266,32 +260,14 @@
 		183D22A924F76476004256D7 /* view_default.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = view_default.m; sourceTree = "<group>"; };
 		183D22AB24F76485004256D7 /* view_blue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = view_blue.h; sourceTree = "<group>"; };
 		183D22AC24F76485004256D7 /* view_blue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = view_blue.m; sourceTree = "<group>"; };
-		183D22D924F776F1004256D7 /* change_card_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = change_card_controller.h; sourceTree = "<group>"; };
-		183D22DA24F776F1004256D7 /* change_card_controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = change_card_controller.m; sourceTree = "<group>"; };
-		183D22DF24F7770B004256D7 /* change_mine_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = change_mine_controller.h; sourceTree = "<group>"; };
-		183D22E024F7770B004256D7 /* change_mine_controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = change_mine_controller.m; sourceTree = "<group>"; };
-		183D22E224F77718004256D7 /* change_password_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = change_password_controller.h; sourceTree = "<group>"; };
-		183D22E324F77718004256D7 /* change_password_controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = change_password_controller.m; sourceTree = "<group>"; };
 		183D22EC24F7775B004256D7 /* controller_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = controller_search.h; sourceTree = "<group>"; };
 		183D22ED24F7775B004256D7 /* controller_search.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = controller_search.m; sourceTree = "<group>"; };
-		183D22F824F7778F004256D7 /* goods_brand_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = goods_brand_controller.h; sourceTree = "<group>"; };
-		183D22F924F7778F004256D7 /* goods_brand_controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goods_brand_controller.m; sourceTree = "<group>"; };
-		183D22FB24F777AA004256D7 /* goods_add_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = goods_add_controller.h; sourceTree = "<group>"; };
-		183D22FC24F777AA004256D7 /* goods_add_controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goods_add_controller.m; sourceTree = "<group>"; };
-		183D22FE24F777BE004256D7 /* goods_record_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = goods_record_controller.h; sourceTree = "<group>"; };
-		183D22FF24F777BE004256D7 /* goods_record_controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goods_record_controller.m; sourceTree = "<group>"; };
 		183D230124F777EB004256D7 /* forget_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = forget_controller.h; sourceTree = "<group>"; };
 		183D230224F777EB004256D7 /* forget_controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = forget_controller.m; sourceTree = "<group>"; };
-		183D230C24F77C34004256D7 /* change_card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = change_card.h; sourceTree = "<group>"; };
-		183D230D24F77C34004256D7 /* change_card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = change_card.m; sourceTree = "<group>"; };
 		183D230F24F77C3B004256D7 /* change_mine_todo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = change_mine_todo.h; sourceTree = "<group>"; };
 		183D231024F77C3B004256D7 /* change_mine_todo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = change_mine_todo.m; sourceTree = "<group>"; };
 		183D231224F77C42004256D7 /* change_mine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = change_mine.h; sourceTree = "<group>"; };
 		183D231324F77C42004256D7 /* change_mine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = change_mine.m; sourceTree = "<group>"; };
-		183D231524F77C49004256D7 /* change_password_todo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = change_password_todo.h; sourceTree = "<group>"; };
-		183D231624F77C49004256D7 /* change_password_todo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = change_password_todo.m; sourceTree = "<group>"; };
-		183D231824F77C4F004256D7 /* change_password.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = change_password.h; sourceTree = "<group>"; };
-		183D231924F77C4F004256D7 /* change_password.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = change_password.m; sourceTree = "<group>"; };
 		183D231B24F77C56004256D7 /* user_mine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = user_mine.h; sourceTree = "<group>"; };
 		183D231C24F77C56004256D7 /* user_mine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = user_mine.m; sourceTree = "<group>"; };
 		183D231E24F77C5E004256D7 /* goods_project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = goods_project.h; sourceTree = "<group>"; };
@@ -312,8 +288,6 @@
 		183D234024F77CB5004256D7 /* forget_confi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = forget_confi.m; sourceTree = "<group>"; };
 		183D234224F77CBE004256D7 /* login_confi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = login_confi.h; sourceTree = "<group>"; };
 		183D234324F77CBE004256D7 /* login_confi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = login_confi.m; sourceTree = "<group>"; };
-		183D234524F78558004256D7 /* goods_project_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = goods_project_controller.h; sourceTree = "<group>"; };
-		183D234624F78558004256D7 /* goods_project_controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goods_project_controller.m; sourceTree = "<group>"; };
 		183D236424F7B221004256D7 /* home_header_cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = home_header_cell.h; sourceTree = "<group>"; };
 		183D236524F7B221004256D7 /* home_header_cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = home_header_cell.m; sourceTree = "<group>"; };
 		183D236724F7B2EE004256D7 /* home_content_cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = home_content_cell.h; sourceTree = "<group>"; };
@@ -538,8 +512,6 @@
 		18C8CE6A24FF46B300FA88B4 /* goods_add_input_date_cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goods_add_input_date_cell.m; sourceTree = "<group>"; };
 		18C8CE7024FF824000FA88B4 /* goods_add_check.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = goods_add_check.h; sourceTree = "<group>"; };
 		18C8CE7124FF824000FA88B4 /* goods_add_check.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goods_add_check.m; sourceTree = "<group>"; };
-		18C8CE7625008AF100FA88B4 /* goods_detail_controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = goods_detail_controller.m; sourceTree = "<group>"; };
-		18C8CE7825008AF200FA88B4 /* goods_detail_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goods_detail_controller.h; sourceTree = "<group>"; };
 		18C8CE7B2500906100FA88B4 /* login_code_todo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = login_code_todo.h; sourceTree = "<group>"; };
 		18C8CE7C2500906100FA88B4 /* login_code_todo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = login_code_todo.m; sourceTree = "<group>"; };
 		18C8CE832500C75900FA88B4 /* loginOut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginOut.h; sourceTree = "<group>"; };
@@ -558,8 +530,6 @@
 		18D7948324FCA90B0002DB79 /* button_editor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = button_editor.m; sourceTree = "<group>"; };
 		18D7948624FCBE540002DB79 /* button_search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = button_search.h; sourceTree = "<group>"; };
 		18D7948724FCBE540002DB79 /* button_search.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = button_search.m; sourceTree = "<group>"; };
-		18D7948924FCBF990002DB79 /* goods_project_search_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = goods_project_search_controller.h; sourceTree = "<group>"; };
-		18D7948A24FCBF990002DB79 /* goods_project_search_controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goods_project_search_controller.m; sourceTree = "<group>"; };
 		18D7948E24FCC0940002DB79 /* button_add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = button_add.h; sourceTree = "<group>"; };
 		18D7948F24FCC0940002DB79 /* button_add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = button_add.m; sourceTree = "<group>"; };
 		18D7949224FCD4A60002DB79 /* button_code.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = button_code.h; sourceTree = "<group>"; };
@@ -640,6 +610,24 @@
 				1819558D24E133A8006C034E /* UIImage+Extend.m */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		182E0866253835CC00482B1C /* controller_normal */ = {
+			isa = PBXGroup;
+			children = (
+				182E086B2538368B00482B1C /* controller_normal.h */,
+				182E086C2538368B00482B1C /* controller_normal.m */,
+			);
+			path = controller_normal;
+			sourceTree = "<group>";
+		};
+		182E0867253835F000482B1C /* controller_bottom */ = {
+			isa = PBXGroup;
+			children = (
+				182E08682538368000482B1C /* controller_bottom.h */,
+				182E08692538368000482B1C /* controller_bottom.m */,
+			);
+			path = controller_bottom;
 			sourceTree = "<group>";
 		};
 		183D224624F64DC2004256D7 /* texts */ = {
@@ -917,75 +905,6 @@
 			path = forget_controller;
 			sourceTree = "<group>";
 		};
-		183D22B224F767E8004256D7 /* change_card_controller */ = {
-			isa = PBXGroup;
-			children = (
-				183D22D924F776F1004256D7 /* change_card_controller.h */,
-				183D22DA24F776F1004256D7 /* change_card_controller.m */,
-			);
-			path = change_card_controller;
-			sourceTree = "<group>";
-		};
-		183D22BA24F76802004256D7 /* goods_project_controller */ = {
-			isa = PBXGroup;
-			children = (
-				183D22C124F77390004256D7 /* goods_record_controller */,
-				183D234524F78558004256D7 /* goods_project_controller.h */,
-				183D234624F78558004256D7 /* goods_project_controller.m */,
-				18D7948924FCBF990002DB79 /* goods_project_search_controller.h */,
-				18D7948A24FCBF990002DB79 /* goods_project_search_controller.m */,
-			);
-			path = goods_project_controller;
-			sourceTree = "<group>";
-		};
-		183D22BB24F76806004256D7 /* change_mine_controller */ = {
-			isa = PBXGroup;
-			children = (
-				183D22DF24F7770B004256D7 /* change_mine_controller.h */,
-				183D22E024F7770B004256D7 /* change_mine_controller.m */,
-			);
-			path = change_mine_controller;
-			sourceTree = "<group>";
-		};
-		183D22BC24F76808004256D7 /* change_password_controller */ = {
-			isa = PBXGroup;
-			children = (
-				183D22E224F77718004256D7 /* change_password_controller.h */,
-				183D22E324F77718004256D7 /* change_password_controller.m */,
-			);
-			path = change_password_controller;
-			sourceTree = "<group>";
-		};
-		183D22C124F77390004256D7 /* goods_record_controller */ = {
-			isa = PBXGroup;
-			children = (
-				183D22C424F7739E004256D7 /* goods_add_controller */,
-				18C8CE7725008AF100FA88B4 /* goods_detail_controller */,
-				183D22FE24F777BE004256D7 /* goods_record_controller.h */,
-				183D22FF24F777BE004256D7 /* goods_record_controller.m */,
-			);
-			path = goods_record_controller;
-			sourceTree = "<group>";
-		};
-		183D22C424F7739E004256D7 /* goods_add_controller */ = {
-			isa = PBXGroup;
-			children = (
-				183D22C824F77411004256D7 /* goods_brand_controller */,
-				183D22FB24F777AA004256D7 /* goods_add_controller.h */,
-				183D22FC24F777AA004256D7 /* goods_add_controller.m */,
-			);
-			path = goods_add_controller;
-			sourceTree = "<group>";
-		};
-		183D22C824F77411004256D7 /* goods_brand_controller */ = {
-			isa = PBXGroup;
-			children = (
-				183D22F824F7778F004256D7 /* goods_brand_controller.h */,
-				183D22F924F7778F004256D7 /* goods_brand_controller.m */,
-			);
-			path = goods_brand_controller;
-			sourceTree = "<group>";
-		};
 		183D22C924F774BB004256D7 /* login_confi */ = {
 			isa = PBXGroup;
 			children = (
@@ -1031,24 +950,6 @@
 				183D231C24F77C56004256D7 /* user_mine.m */,
 			);
 			path = user_mine;
-			sourceTree = "<group>";
-		};
-		183D22CE24F774C8004256D7 /* change_password */ = {
-			isa = PBXGroup;
-			children = (
-				183D231824F77C4F004256D7 /* change_password.h */,
-				183D231924F77C4F004256D7 /* change_password.m */,
-			);
-			path = change_password;
-			sourceTree = "<group>";
-		};
-		183D22CF24F774CB004256D7 /* change_password_todo */ = {
-			isa = PBXGroup;
-			children = (
-				183D231524F77C49004256D7 /* change_password_todo.h */,
-				183D231624F77C49004256D7 /* change_password_todo.m */,
-			);
-			path = change_password_todo;
 			sourceTree = "<group>";
 		};
 		183D22D024F774CD004256D7 /* goods_detail */ = {
@@ -1121,15 +1022,6 @@
 				183D231024F77C3B004256D7 /* change_mine_todo.m */,
 			);
 			path = change_mine_todo;
-			sourceTree = "<group>";
-		};
-		183D230624F77BD4004256D7 /* change_card */ = {
-			isa = PBXGroup;
-			children = (
-				183D230C24F77C34004256D7 /* change_card.h */,
-				183D230D24F77C34004256D7 /* change_card.m */,
-			);
-			path = change_card;
 			sourceTree = "<group>";
 		};
 		183D234C24F7AA4F004256D7 /* cells */ = {
@@ -1467,6 +1359,9 @@
 		188CB1BF2490CDDA00B8A194 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				183D22EB24F7773B004256D7 /* controller_search */,
+				182E0867253835F000482B1C /* controller_bottom */,
+				182E0866253835CC00482B1C /* controller_normal */,
 				18D794B124FCF7510002DB79 /* photo_viewer_controller */,
 				18D794A524FCF0A20002DB79 /* photo_controller */,
 				1819558224E1174C006C034E /* LoginConroller */,
@@ -1500,11 +1395,8 @@
 				183D22A324F76243004256D7 /* Single.m */,
 				18C8CE8A2500FBC700FA88B4 /* updateUserPhoto */,
 				18C8CE822500C73C00FA88B4 /* loginOut */,
-				183D230624F77BD4004256D7 /* change_card */,
 				183D230524F77BD3004256D7 /* change_mine_todo */,
 				183D230424F77BD0004256D7 /* change_mine */,
-				183D22CF24F774CB004256D7 /* change_password_todo */,
-				183D22CE24F774C8004256D7 /* change_password */,
 				183D22CD24F774C6004256D7 /* user_mine */,
 				183D22D824F774DF004256D7 /* goods_project */,
 				183D22D724F774DD004256D7 /* goods_record */,
@@ -2282,15 +2174,6 @@
 			path = goods_add_todo;
 			sourceTree = "<group>";
 		};
-		18C8CE7725008AF100FA88B4 /* goods_detail_controller */ = {
-			isa = PBXGroup;
-			children = (
-				18C8CE7825008AF200FA88B4 /* goods_detail_controller.h */,
-				18C8CE7625008AF100FA88B4 /* goods_detail_controller.m */,
-			);
-			path = goods_detail_controller;
-			sourceTree = "<group>";
-		};
 		18C8CE7A2500902E00FA88B4 /* login_code_todo */ = {
 			isa = PBXGroup;
 			children = (
@@ -2521,7 +2404,6 @@
 		45BC2A7724B5FF57002E8771 /* base */ = {
 			isa = PBXGroup;
 			children = (
-				183D22EB24F7773B004256D7 /* controller_search */,
 				183D229824F75908004256D7 /* controller_main */,
 				183D229724F75905004256D7 /* controller_back */,
 				188CB1EF2491CDD900B8A194 /* controller_default */,
@@ -2533,7 +2415,6 @@
 		45BC2A7E24B60045002E8771 /* HomeController */ = {
 			isa = PBXGroup;
 			children = (
-				183D22BA24F76802004256D7 /* goods_project_controller */,
 				45BC2A8124B601EF002E8771 /* HomeController.h */,
 				45BC2A8224B601EF002E8771 /* HomeController.m */,
 			);
@@ -2543,9 +2424,6 @@
 		45BC2A8024B6007D002E8771 /* MineController */ = {
 			isa = PBXGroup;
 			children = (
-				183D22BC24F76808004256D7 /* change_password_controller */,
-				183D22BB24F76806004256D7 /* change_mine_controller */,
-				183D22B224F767E8004256D7 /* change_card_controller */,
 				45BC2A8724B60682002E8771 /* MineController.h */,
 				45BC2A8824B60682002E8771 /* MineController.m */,
 			);
@@ -2754,6 +2632,7 @@
 				189DD56325136FB300444346 /* user_details.m in Sources */,
 				183D233B24F77CA5004256D7 /* forget_todo.m in Sources */,
 				189DD56F2514804800444346 /* regular_decimal_two.m in Sources */,
+				182E086A2538368000482B1C /* controller_bottom.m in Sources */,
 				183D237824F7B322004256D7 /* login_password_cell.m in Sources */,
 				183D233E24F77CAD004256D7 /* login_todo.m in Sources */,
 				188CB23024921C0800B8A194 /* Cell006View.m in Sources */,
@@ -2778,20 +2657,16 @@
 				183D22A124F759A8004256D7 /* controller_back.m in Sources */,
 				189DD5732514BDA200444346 /* label_bold.m in Sources */,
 				45BC2A8324B601EF002E8771 /* HomeController.m in Sources */,
-				183D22FA24F7778F004256D7 /* goods_brand_controller.m in Sources */,
 				183D236F24F7B304004256D7 /* mine_todo_cell.m in Sources */,
 				183D232324F77C67004256D7 /* goods_record.m in Sources */,
-				18D7948B24FCBF990002DB79 /* goods_project_search_controller.m in Sources */,
 				18B55D3C24F8F38900CD6721 /* goods_add_unit_cell.m in Sources */,
 				18B55D0824F8D08100CD6721 /* goods_title_group_cell.m in Sources */,
 				18D7949D24FCE8190002DB79 /* Camera.m in Sources */,
-				183D230024F777BE004256D7 /* goods_record_controller.m in Sources */,
 				183D228A24F74C35004256D7 /* text_title.m in Sources */,
 				18D7949824FCDF550002DB79 /* Alert.m in Sources */,
 				183D22EE24F7775B004256D7 /* controller_search.m in Sources */,
 				18B55CDD24F8945600CD6721 /* goods_button_cell.m in Sources */,
 				18B1DE7024FDFE8B00AB21F1 /* regular_number.m in Sources */,
-				183D231A24F77C4F004256D7 /* change_password.m in Sources */,
 				18B55D2A24F8F34600CD6721 /* goods_add_header_cell.m in Sources */,
 				183D226F24F74B7C004256D7 /* label_content.m in Sources */,
 				183D226C24F74B75004256D7 /* label_title.m in Sources */,
@@ -2812,7 +2687,6 @@
 				1819558E24E133A8006C034E /* UIImage+Extend.m in Sources */,
 				183D231124F77C3B004256D7 /* change_mine_todo.m in Sources */,
 				18C8CE5724FF3C8000FA88B4 /* AlertTime.m in Sources */,
-				183D22E424F77718004256D7 /* change_password_controller.m in Sources */,
 				18B55CFC24F8B8DB00CD6721 /* goods_project_item_cell.m in Sources */,
 				18B55D4224F8F3A300CD6721 /* goods_add_input_cell.m in Sources */,
 				183D232024F77C5E004256D7 /* goods_project.m in Sources */,
@@ -2829,8 +2703,6 @@
 				18D794A824FCF0C40002DB79 /* photo_controller.m in Sources */,
 				189DD56B25147ED100444346 /* regular_number_20.m in Sources */,
 				183D239024F7B372004256D7 /* login_face_title_cell.m in Sources */,
-				183D22E124F7770B004256D7 /* change_mine_controller.m in Sources */,
-				18C8CE7925008AF200FA88B4 /* goods_detail_controller.m in Sources */,
 				18B1DE7324FDFE9200AB21F1 /* regular_decimal.m in Sources */,
 				183D238124F7B342004256D7 /* login_login_cell.m in Sources */,
 				1819558524E1176C006C034E /* LoginConroller.m in Sources */,
@@ -2851,7 +2723,6 @@
 				18C8CE99250225E500FA88B4 /* goods_add_seat_cell.m in Sources */,
 				18C8CE7D2500906100FA88B4 /* login_code_todo.m in Sources */,
 				18F1D70E24E1484A00658257 /* FileUpdate.m in Sources */,
-				183D230E24F77C34004256D7 /* change_card.m in Sources */,
 				183D228424F74C14004256D7 /* button_blue_white.m in Sources */,
 				183D22AA24F76476004256D7 /* view_default.m in Sources */,
 				18C8CE3F24FE1A2000FA88B4 /* mine_input_cell.m in Sources */,
@@ -2864,6 +2735,7 @@
 				183D239324F7B37D004256D7 /* login_face_header_cell.m in Sources */,
 				18B55D3024F8F35E00CD6721 /* goods_add_car_cell.m in Sources */,
 				18D794C024FDD8F40002DB79 /* button_image.m in Sources */,
+				182E086D2538368B00482B1C /* controller_normal.m in Sources */,
 				18B55D2D24F8F35300CD6721 /* goods_add_LR_cell.m in Sources */,
 				183D238A24F7B35E004256D7 /* forget_password_cell.m in Sources */,
 				183D227824F74BB3004256D7 /* field_title.m in Sources */,
@@ -2894,12 +2766,10 @@
 				18D7948424FCA90B0002DB79 /* button_editor.m in Sources */,
 				18C8CE6B24FF46B300FA88B4 /* goods_add_input_date_cell.m in Sources */,
 				18B55D3324F8F36900CD6721 /* goods_add_sign_cell.m in Sources */,
-				183D22DB24F776F1004256D7 /* change_card_controller.m in Sources */,
 				18B55CD724F8941400CD6721 /* goods_subTitle_cell.m in Sources */,
 				18B1DE5E24FDEE3800AB21F1 /* button_card.m in Sources */,
 				18B1DE6A24FDFE7B00AB21F1 /* regular_phone.m in Sources */,
 				18B55CEF24F89D5500CD6721 /* label_gray.m in Sources */,
-				183D231724F77C49004256D7 /* change_password_todo.m in Sources */,
 				183D238D24F7B368004256D7 /* forget_code_cell.m in Sources */,
 				183D228724F74C23004256D7 /* text_default.m in Sources */,
 				18D7948024FCA6FA0002DB79 /* button_back.m in Sources */,
@@ -2908,7 +2778,6 @@
 				183D234424F77CBE004256D7 /* login_confi.m in Sources */,
 				18C8CE7224FF824000FA88B4 /* goods_add_check.m in Sources */,
 				188CB25124934C1900B8A194 /* BeTap.m in Sources */,
-				183D22FD24F777AA004256D7 /* goods_add_controller.m in Sources */,
 				18B55CE024F8946000CD6721 /* goods_footer_cell.m in Sources */,
 				18D794BC24FCFC830002DB79 /* list_horizontal_view.m in Sources */,
 				188CB23F24921C4A00B8A194 /* Cell008View.m in Sources */,
@@ -2918,7 +2787,6 @@
 				183D231D24F77C56004256D7 /* user_mine.m in Sources */,
 				183D227224F74B83004256D7 /* label_blue.m in Sources */,
 				188CB1E32491C41100B8A194 /* Collection.m in Sources */,
-				183D234724F78558004256D7 /* goods_project_controller.m in Sources */,
 				18C8CE5F24FF468A00FA88B4 /* goods_add_input_unit_cell.m in Sources */,
 				18B55D2124F8EC2800CD6721 /* goods_materiel_item_cell.m in Sources */,
 				18B55D3F24F8F39500CD6721 /* goods_add_number_cell.m in Sources */,

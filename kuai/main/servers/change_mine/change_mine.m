@@ -34,4 +34,9 @@
         
     }
 }
+
+- (NSString *)navigationTitle{
+   
+    return  @"编辑";
+}
 @end

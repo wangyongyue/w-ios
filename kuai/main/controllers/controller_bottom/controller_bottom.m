@@ -1,20 +1,21 @@
 //
-//  goods_add_controller.m
+//  controller_bottom.m
 //  kuai
 //
-//  Created by apple on 2020/8/27.
+//  Created by apple on 2020/10/15.
 //  Copyright © 2020 sui. All rights reserved.
 //
 
-#import "goods_add_controller.h"
 
-@interface goods_add_controller ()
+#import "controller_bottom.h"
+
+@interface controller_bottom ()
 @end
 
-@implementation goods_add_controller
+@implementation controller_bottom
 + (void)push:(Server *)server{
     
-    goods_add_controller *vc = [[goods_add_controller alloc]init];
+    controller_bottom *vc = [[controller_bottom alloc]init];
     vc.server = server;
     [Router push:vc];
 }
@@ -36,25 +37,16 @@
     list.server = self.server;
     [self.server networkRequest];
     
-     UIButton *button = [[button_blue_white alloc]init];
-    [button setTitle:@"提交" forState:UIControlStateNormal];
-    [self.view addSubview:button];
-    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+    UIView *bottom = [self.server bottomItems];
+    [self.view addSubview:bottom];
+    [bottom mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.offset(Bottom);
         make.bottom.offset(0);
         make.left.offset(0);
         make.right.offset(0);
         
     }];
-    [button addTarget:self action:@selector(commit) forControlEvents:UIControlEventTouchUpInside];
-    
-}
-- (void)commit{
-    
-    [Alert showTitle:@"确定提交当前操作内容吗？" block:^{
-        [self.server commit];
-
-    }];
+   
     
 }
 
