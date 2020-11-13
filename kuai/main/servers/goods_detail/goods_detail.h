@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface goods_detail : Server
+@interface goods_detail : Server<server_navigation_protocol>
 @property(nonatomic,assign)NSInteger id;
 @property(nonatomic,assign)NSInteger flag;
 

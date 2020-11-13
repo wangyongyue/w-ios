@@ -11,8 +11,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface goods_project : Server
-@property(nonatomic,copy)NSString *search;
-
 
 @end
 

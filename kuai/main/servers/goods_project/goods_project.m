@@ -7,9 +7,12 @@
 //
 
 #import "goods_project.h"
-
 #import "Header.h"
 
+@interface goods_project ()<server_navigation_protocol,controller_search_protocol>
+@property(nonatomic,copy)NSString *search;
+
+@end
 @implementation goods_project
 - (NSString *)url{
 
@@ -77,5 +80,9 @@
     
     return @"请输入内容";
 
+}
+- (void)searchContent:(NSString *)string{
+    
+    self.search  = string;
 }
 @end

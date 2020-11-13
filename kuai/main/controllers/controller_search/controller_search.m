@@ -7,14 +7,14 @@
 //
 
 #import "controller_search.h"
-#import "Header.h"
 #import "field_search.h"
 
 @interface controller_search ()
+@property(nonatomic,strong)UITextField *field;
 @end
 
 @implementation controller_search
-+ (void)push:(Server *)server{
++ (void)push:(Server<controller_search_protocol> *)server{
     
     controller_search *vc = [[controller_search alloc]init];
     vc.server = server;
@@ -22,6 +22,20 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    list_pull_down_up_view *list = [[list_pull_down_up_view alloc]init];
+    [self.view addSubview:list];
+    [list mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.offset(0);
+        make.bottom.offset(0);
+        make.left.offset(0);
+        make.right.offset(0);
+
+    }];
+    
+    list.server = self.server;
+    [self.server networkRequest];
     
     
     UIButton *search = [[UIButton alloc]init];

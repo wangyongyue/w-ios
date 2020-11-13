@@ -7,7 +7,10 @@
 //
 
 #import "goods_add.h"
+#import "Header.h"
+@interface goods_add () <server_navigation_protocol,controller_bottom_protocol>
 
+@end
 
 @implementation goods_add
 
@@ -23,6 +26,9 @@
 - (NSString *)navigationTitle{
    
     return  @"添加";
+}
+- (NSArray *)navigationRightItems{
+    return [[NSArray alloc]init];
 }
 - (void)loadTableData:(NSDictionary *)reponse{
            

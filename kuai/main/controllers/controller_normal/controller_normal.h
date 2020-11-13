@@ -16,8 +16,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface controller_normal : controller_back
-@property(nonatomic,strong)Server *server;
-+ (void)push:(Server *)server;
+@property(nonatomic,strong)Server<server_navigation_protocol> *server;
++ (void)push:(Server<server_navigation_protocol> *)server;
 
 
 @end

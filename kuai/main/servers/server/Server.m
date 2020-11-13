@@ -20,38 +20,28 @@
 @implementation Server
 
 - (NSString *)url{return @"";}
+- (NSString *)parameterValidation{
+    return @"";
+}
 - (NSMutableDictionary *)body{
     
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     dic[@"userId"] = [Single getInstance].userId;
-    
     return dic;
     
 }
-- (NSString *)parameterValidation{
-    return @"";
-}
-
-- (void)searchContent:(NSString *)string{}
-- (NSString *)searchPlaceholder{return @"请输入内容";}
-
-- (NSString *)navigationTitle{return @"";}
-- (NSArray *)navigationRightItems{return [[NSArray alloc]init];}
-- (UIView *)bottomItems{return [[UIView alloc]init];}
-
-- (void)successData:(ReloadBlock)block{
-    self.reload = block;
-}
 - (void)failData:(ReloadBlock)block{self.failBlock = block;}
+- (void)successData:(ReloadBlock)block{self.reload = block;}
 
 - (void)loadTableData:(NSDictionary *)reponse{}
 - (void)loadError:(NSString *)error{}
 
 - (void)tableIndex:(NSInteger)index{}
-- (NSInteger)limit{
-    return 10;
-}
 
+- (NSInteger)limit{return 10;}
+
+
+//---------------------------------
 - (void)networkRequest{
     NSString *par = [self parameterValidation];
     if (par.length > 0) {

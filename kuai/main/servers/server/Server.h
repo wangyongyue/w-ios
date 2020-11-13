@@ -11,8 +11,15 @@
 #import "controller_default.h"
 NS_ASSUME_NONNULL_BEGIN
 typedef void(^ReloadBlock)(void);
-
 typedef void(^BackBlock)(id obj);
+
+
+@protocol server_navigation_protocol <NSObject>
+
+- (NSString *)navigationTitle;
+- (NSArray *)navigationRightItems;
+
+@end
 
 
 
@@ -44,18 +51,10 @@ typedef void(^BackBlock)(id obj);
 - (void)failData:(ReloadBlock)block;
 
 - (void)networkRequest;
-
-- (NSString *)navigationTitle;
-- (NSArray *)navigationRightItems;
-- (UIView *)bottomItems;
-
-
-
-- (void)searchContent:(NSString *)string;
-- (NSString *)searchPlaceholder;
-
 - (void)popBack:(BackBlock)block;
 - (void)pop:(id)obj;
+
+
 
 
 

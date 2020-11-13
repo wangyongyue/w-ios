@@ -6,14 +6,22 @@
 //  Copyright © 2020 sui. All rights reserved.
 //
 
-#import "controller_normal.h"
+#import "controller_back.h"
+#import "Header.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface controller_search : controller_normal
-@property(nonatomic,strong)UITextField *field;
 
-- (void)searchClick;
+@protocol controller_search_protocol <NSObject>
+- (void)searchContent:(NSString *)string;
+- (NSString *)searchPlaceholder;
+@end
+
+@interface controller_search : controller_back
+@property(nonatomic,strong)Server<controller_search_protocol> *server;
++ (void)push:(Server<controller_search_protocol> *)server;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

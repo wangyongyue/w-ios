@@ -51,8 +51,7 @@
     [self.array addObject:[goods_subTitle creat:@"header:" title1:@"sdfsdf"]];
     [self.array addObject:[goods_footer creat]];
     
-    
-   
+
 }
 
 - (void)tableIndex:(NSInteger)index{

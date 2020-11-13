@@ -11,10 +11,13 @@
 #import "Header.h"
 
 NS_ASSUME_NONNULL_BEGIN
+@protocol controller_bottom_protocol <NSObject>
+- (UIView *)bottomItems;
+@end
 
 @interface controller_bottom : controller_back
-@property(nonatomic,strong)Server *server;
-+ (void)push:(Server *)server;
+@property(nonatomic,strong)Server<server_navigation_protocol,controller_bottom_protocol> *server;
++ (void)push:(Server<server_navigation_protocol,controller_bottom_protocol> *)server;
 
 @end
 

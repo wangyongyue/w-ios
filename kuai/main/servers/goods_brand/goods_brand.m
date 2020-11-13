@@ -7,8 +7,10 @@
 //
 
 #import "goods_brand.h"
-
 #import "Header.h"
+@interface goods_brand () <controller_search_protocol>
+
+@end
 
 @implementation goods_brand
 - (NSString *)url{

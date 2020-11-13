@@ -13,7 +13,7 @@
 @end
 
 @implementation controller_bottom
-+ (void)push:(Server *)server{
++ (void)push:(Server<server_navigation_protocol,controller_bottom_protocol> *)server{
     
     controller_bottom *vc = [[controller_bottom alloc]init];
     vc.server = server;

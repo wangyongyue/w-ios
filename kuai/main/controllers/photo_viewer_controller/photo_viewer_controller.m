@@ -52,25 +52,16 @@
     
     list.pagingEnabled = YES;
     
-//    Server *server = [[photo_viewer alloc]init];
     list.server = self.server;
     [self.server networkRequest];
     
-    
-    UIButton *button = [[button_back alloc]init];
-    [button addTarget:self action:@selector(backClick) forControlEvents: UIControlEventTouchUpInside];
-    [self.view addSubview:button];
-    
-    [button mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.offset(22);
-        make.left.offset(22);
-    }];
+   
     
 }
 
 - (void)backClick{
     
-    [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController popViewControllerAnimated:NO];
 }
 
 
